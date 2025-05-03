@@ -4,7 +4,7 @@ This project implements a full pipeline for detecting malicious HTTP traffic usi
 
 ---
 
-##  Project Overview
+##  Project Decription 
 
 - **Goal**: Detect attacks in HTTP requests (e.g., SQLi, XSS, Shell injection)
 - **Technique**: Use NLP-based preprocessing + DistilBERT classifier
@@ -17,7 +17,7 @@ This project implements a full pipeline for detecting malicious HTTP traffic usi
 
 ---
 
-##  Project Pipeline
+##  Project Structure
 
 ### 1. **Data Extraction from PCAP** (`data_extraction.py`)
 - Parses HTTP packets from `.pcap` files
@@ -141,7 +141,4 @@ pip install -r requirements.txt
 ##  License
 MIT License .
 
----
 
-##  Credits
-Built by Wafa Bouakez using HuggingFace Transformers and CSE-CIC-IDS2018.
