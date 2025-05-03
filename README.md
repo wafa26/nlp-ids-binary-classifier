@@ -4,7 +4,7 @@ This project implements a full pipeline for detecting malicious HTTP traffic usi
 
 ---
 
-##  Project Decription 
+##  Project Description 
 
 - **Goal**: Detect attacks in HTTP requests (e.g., SQLi, XSS, Shell injection)
 - **Technique**: Use NLP-based preprocessing + DistilBERT classifier
